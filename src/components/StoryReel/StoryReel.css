@@ -1,0 +1,47 @@
+.storyReel {
+  display: flex;
+  align-items: center;
+}
+
+.storyReel__card {
+  width: 120px;
+  height: 200px;
+  box-shadow: 0 5px 17px -7px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  background: whitesmoke;
+}
+
+.storyReel__card img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+}
+
+.storyReel__card .button {
+  background: rgb(23, 71, 143);
+  color: white;
+  margin-left: 30px;
+  border-radius: 50%;
+  height: 60px;
+  margin-top: -25%;
+  display: grid;
+  place-items: center;
+  border: 5px solid white;
+}
+
+.storyReel__card .button:hover {
+  background: rgb(23, 71, 143);
+}
+
+.storyReel__card h4 {
+  text-align: center;
+}
+
+.storyReel__card Button {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 4px;
+  margin-top: 10px;
+}

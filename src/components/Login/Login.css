@@ -1,0 +1,64 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+}
+.login__container {
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.login img {
+  height: 250px;
+  object-fit: contain;
+}
+
+.login__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__buttons .button1 {
+  width: 300px;
+  background: red;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-transform: inherit;
+}
+
+.login__buttons .button1:hover {
+  background: transparent;
+  color: red;
+}
+
+.login__buttons .button2 {
+  width: 300px;
+  background: rgb(46, 83, 184);
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: inherit;
+}
+
+.login__buttons .button2:hover {
+  background: transparent;
+  color: rgb(46, 83, 184);
+}
+
+.GoogleIcon {
+  margin-right: 35px;
+}
+
+.FacebookIcon {
+  margin-right: 15px;
+}

@@ -1,0 +1,9 @@
+.sidebar {
+  background: black;
+  width: 350px;
+}
+
+.icon__option--active {
+  background: rgba(235, 230, 230, 0.1);
+  border-radius: 10px;
+}
